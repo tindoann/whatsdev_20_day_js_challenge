@@ -9,7 +9,8 @@ function confirmEnding (str, target) {
   }
 }
 confirmEnding('Bastian', 'noo'); 
-// condense version //
+
+//condense version//
 
 
 function confirmEnding(str, target){
@@ -17,7 +18,7 @@ function confirmEnding(str, target){
 }
 
 
-// other version //
+//alternative slice version//
 
 function confirmEnding(str, target){
   return str.slice(-target.length) === target; 

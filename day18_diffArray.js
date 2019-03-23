@@ -19,7 +19,7 @@
 //   return newArr; 
 // }
 
-// diffArray([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]); 
+// diffArray([1, 2, 3, 4, 5], [1, 2, 3, 4, 5]); // 4
 
 function diffArray(arr1, arr2) {
   var combo = arr1.concat(arr2); 
